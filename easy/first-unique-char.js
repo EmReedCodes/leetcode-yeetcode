@@ -10,9 +10,9 @@
 
 //this seems like it would be faster no? Well really thats a no.
 
-//  var firstUniqChar = function(s) {
-//     return s.split('').findIndex((item, idx, arr) => arr.indexOf(item) === arr.lastIndexOf(item))
-// };
+ var firstUniqChar = function(s) {
+    return s.split('').findIndex((item, idx, arr) => arr.indexOf(item) === arr.lastIndexOf(item))
+};
 
 //ok this is a little faster 
 
@@ -45,3 +45,6 @@ var firstUniqChar = function(s) {
   
   
   firstUniqChar("loveleetcode") //Output: 2)
+
+
+  
