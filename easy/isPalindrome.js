@@ -2,7 +2,7 @@
 //runtime 300ms
 
 var isPalindrome = function (x) {
-    const numArr = [...x.toString()].reverse()
+    const numArr = [...x.toString()]
     let j = numArr.length - 1
     for (let i = 0; i <= j; i++){
       const pointerOne = numArr[i]
@@ -19,7 +19,7 @@ var isPalindrome = function (x) {
   isPalindrome(1000021)
 isPalindrome(101)
   
-//ok tis ran at 364ms so I guess my first thought was a bit faster
+//ok this ran at 364ms so I guess my first thought was a bit faster
 
 var isPalindrome = function (x) {
     const numArr = [...x.toString()].reverse()
